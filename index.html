@@ -28,7 +28,7 @@
             <img src="./anh.jpg" alt="" srcset="" />
           </div>
           <div class="card__title--name">
-            <h1>Nguyễn Anh Tú</h1>
+            <h1 class="y1">Nguyễn Anh Tú</h1>
             <div class="veri__check">
               <i class="fas fa-check"></i>
             </div>
@@ -150,14 +150,14 @@
             <div class="col col-lg-6 mt-10">
               <a href="https://m.me/NguyenAnhTuisMyname" target="_blank">
                 <div class="button button__message">
-                  <span> Nhắn Tin </span>
+                  <span class="y2"> Nhắn Tin </span>
                 </div>
               </a>
             </div>
             <div class="col col-lg-6 mt-10">
               <a href="https://www.facebook.com/NguyenAnhTuisMyname" target="_blank">
                 <div class="button button__subscribe">
-                  <span> Theo Dõi </span>
+                  <span class="y2"> Theo Dõi </span>
                 </div>
               </a>
             </div>
@@ -192,6 +192,93 @@
       </div>
       
     </div>
+    <style type="text/css">
+      .card{
+        border: 2px solid red;
+        animation: color1 linear infinite 1s;
+      }
+      @keyframes color1{
+        0%,100%{
+          border: 2px solid #F8F05D;
+        }
+          10%{
+          border: 2px solid #ff0000;
+        }
+        
+        20%{
+          border: 2px solid #f1e100;
+        }
+          30%{
+          border: 2px solid #00f821;
+        }
+        
+        40%{
+          border: 2px solid #00faed;
+        }
+          50%{
+          border: 2px solid #0061fd;
+        }
+        
+        60%{
+          border: 2px solid #5b26ec;
+        }
+        70%{
+          border: 2px solid #dd0b62;
+        }
+        
+        80%{
+          border: 2px solid #f00b4f;
+        }
+        90%{
+          border: 2px solid #9b2121;
+        }
+        
+      }
+      .y1{
+        animation: color2 linear infinite 2s;
+      }
+ .y2{
+        animation: color3 linear infinite 2s;
+      }
+      @keyframes color2{
+        0%,100%{
+          color: #00ff6a;
+        }
+          10%{
+          color: #ff0000;
+        }
+        
+        30%{
+          color: #088dfa;
+        }
+          60%{
+          color: #ec0a8e;
+        }
+        
+        90%{
+          color:  #00faed;
+        }
+      }
+        @keyframes color3{
+        0%,100%{
+          color: #f89500;
+        }
+          10%{
+          color: #f50404;
+        }
+        
+        30%{
+          color: #04eeff;
+        }
+          60%{
+          color: #ec0a8e;
+        }
+        
+        90%{
+          color:  #f700ff;
+        }
+      }
+    </style>
     <script src="./script.js"></script>
   </body>
 </html>
