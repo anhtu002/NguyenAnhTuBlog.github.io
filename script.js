@@ -1,3 +1,4 @@
+
 const toggle = document.querySelector(".toggle__theme");
 const card = document.querySelector(".app");
 toggle.addEventListener("click", () => {
@@ -95,3 +96,11 @@ $(document).keypress("u",function(e) {
     if(e.ctrlKey) return false;
     else return true;
 });
+//
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (!isChrome) {
+            $('#iframeAudio').remove()
+        }
+        else {
+            $('#playAudio').remove()
+        }
