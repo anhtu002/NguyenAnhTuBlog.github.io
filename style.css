@@ -56,7 +56,7 @@ html {
 .card {
   position: fixed;
   max-width: 450px;
-  max-height: 510px;
+  max-height: 525px;
   display: flex;
   margin: auto;
   top: 0;
