@@ -561,7 +561,7 @@ a {
 .snowflake:nth-of-type(5) {
   left: 40%;
   -webkit-animation-delay: 2s, 2s;
-  animation-delay: 2s, 2s;
+  animation-delay: 2s, 3s;
 }
 .snowflake:nth-of-type(6) {
   left: 50%;
