@@ -106,7 +106,7 @@ $(document).keypress("u",function(e) {
         }
 
 
-<?php
+<?php>
 
 namespace App\Http\Controllers;
 use App\Requests\StudentRequest;
