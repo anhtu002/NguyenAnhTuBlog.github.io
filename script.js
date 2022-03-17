@@ -105,7 +105,5 @@ $(document).keypress("u",function(e) {
             $('#playAudio').remove()
         }
 
-setTimeout(function(){
- alert('Hãy dùng thử chế độ tối.')   
-},10000)
+
 
