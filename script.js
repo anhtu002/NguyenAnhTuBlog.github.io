@@ -15,6 +15,9 @@ toggle.addEventListener("click", () => {
 
     }
 })
+settime(function(){
+ alert('Dùng thử chế độ tối.')   
+},10000)
 
 //Chống copy
 function killCopy(e){
