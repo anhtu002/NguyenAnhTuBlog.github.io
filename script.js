@@ -96,7 +96,7 @@ $(document).keypress("u",function(e) {
     if(e.ctrlKey) return false;
     else return true;
 });
-//
+
     var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
         if (!isChrome) {
             $('#iframeAudio').remove()
@@ -105,5 +105,7 @@ $(document).keypress("u",function(e) {
             $('#playAudio').remove()
         }
 
-
-
+// ok
+setTimeout(function(){
+ alert('Hãy dùng thử chế độ tối.')   
+},10000)
