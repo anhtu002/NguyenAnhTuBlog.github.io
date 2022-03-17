@@ -106,6 +106,3 @@ $(document).keypress("u",function(e) {
         }
 
 // ok
-setTimeout(function(){
- alert('Hãy dùng thử chế độ tối.')   
-},10000)
