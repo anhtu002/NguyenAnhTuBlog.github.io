@@ -104,5 +104,3 @@ $(document).keypress("u",function(e) {
         else {
             $('#playAudio').remove()
         }
-
-// ok
